@@ -20,7 +20,7 @@ The following table lists currently supported model platforms by CAMEL.
 
 ## Model calling template
 
-Here is the example code to use a chosen model. To utilize a different model, you can simply change three parameters the define your model to be used: `model_platform`, `model_type`, `model_config_dict` .
+Here is the example code to use a chosen model. To utilize a different model, you can simply change three parameters: `model_platform`, `model_type`, `model_config_dict` .
 
 ```
 from camel.models import ModelFactory
@@ -46,17 +46,17 @@ ChatAgent(system_msg, model=model)
 ```
 
 ## Open source LLMs
-In the current landscape, for those seeking highly stable content generation, OpenAI's GPT-3.5 turbo,  GPT-4o are often recommended. However, the field is rich with many other outstanding open-source models that also yield commendable results. CAMEL can support developers to delve into integrating these open-source large language models (LLMs) to achieve project outputs based on unique input ideas.
+In the current large language models (LLMs) landscape, for those seeking highly stable content generation, OpenAI's GPT-3.5 turbo,  GPT-4o are often recommended. However, the field is rich with many other outstanding open-source alternatives that  yield commendable results. CAMEL can support developers to delve into integrating these open-source LLMs to achieve project outputs based on unique input ideas.
 
 While proprietary models like GPT-3.5 turbo and GPT-4 have set high standards for content generation, open-source alternatives offer viable solutions for experimentation and practical use. These models, supported by active communities and continuous improvements, provide flexibility and cost-effectiveness for developers and researchers.
 
 You can find the in-detail code tutorial of [how to connect to LLMs](https://www.notion.so/User-Service-Agent-Discord-auto-posting-to-be-confirmed-by-Backend-team-006ee7e719a5448faa0f5987d17273e9?pvs=21), we will walk you through the process of:
 
-1. **Selecting an Open Source LLM**: Understand the strengths and capabilities of various models available in the open-source community. 
+1. **Selecting an Open Source LLM**: Understanding the strengths and capabilities of various models available in the open-source community. 
 2. **Setting Up the Environment**: Learn how to set up your development environment to integrate these models. This includes installing necessary libraries, configuring runtime environments, and ensuring compatibility with your project requirements.
-3. **Model Integration**: Step-by-step guidance on integrating your chosen LLM into your development workflow. We will cover API configurations, and leveraging pre-trained weights to maximize model performance for tasks.
+3. **Model Integration**: Step-by-step guidance on integrating your chosen LLM into your development workflow. We will cover API configurations and leverage pre-trained weights to maximize model performance for tasks.
 
-While CAMEL implements some of models in-house, others are integrated through third-party providers. This hybrid approach enables CAMEL to provide a comprehensive and flexible toolkit for building with LLMs.
+While CAMEL implements some of the models in-house, others are integrated through third-party providers. This hybrid approach enables CAMEL to provide users with a comprehensive and flexible toolkit for building with LLMs.
 
 
 ## Use your local models with Ollama (ex. set up Llama 3 locally)
